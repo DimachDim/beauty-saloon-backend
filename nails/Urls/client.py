@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.urls import path, include
 
-from nails.Views.Client.ChoiseServece import *
-from nails.Views.Client.DatePlan import *
-from nails.Views.Client.ChoiseMaster import *
+from nails.Views.Client.Reception41.ChoiseServece import *
+from nails.Views.Client.Reception41.DatePlan import *
+from nails.Views.Client.Reception41.ChoiseMaster import *
 
 
 

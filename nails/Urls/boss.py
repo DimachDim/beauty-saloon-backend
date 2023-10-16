@@ -1,8 +1,8 @@
 from django.contrib import admin
 from django.urls import path, include
 
-from nails.Views.specialization import *
-from nails.Views.services import *
+from nails.Views.Boss.SettingsBoss21.specialization import *
+from nails.Views.Boss.SettingsBoss21.services import *
 
 
 

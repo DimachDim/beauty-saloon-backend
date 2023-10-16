@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 
-from nails.Views.aut import *
-from nails.Views.profile import *
-from nails.Views.users import *
+from nails.Views.General.aut import *
+from nails.Views.General.profile import *
+from nails.Views.General.users import *
 
 
 urlpatterns = [

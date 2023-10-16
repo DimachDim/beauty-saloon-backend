@@ -1,10 +1,10 @@
 from django.contrib import admin
 from django.urls import path, include
 
-from nails.Views.specialization import *
-from nails.Views.Master.SettingServeces import *
-from nails.Views.Master.DatePlan import *
-from nails.Views.schedule import *
+from nails.Views.Master.SettingMaster31.specialization import *
+from nails.Views.Master.SettingMaster31.SettingServeces import *
+from nails.Views.Master.DataPlan33.DatePlan import *
+from nails.Views.Master.DataPlan33.schedule import *
 
 
 
